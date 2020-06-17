@@ -22,7 +22,7 @@ open a terminal
 git clone github.com/AzizVirus/DDoS-Attack-Tool.git
 
 
-cd DDoS-Attach Tool
+cd DDoS-Attack Tool
 
 
 python ddos attack script.py
