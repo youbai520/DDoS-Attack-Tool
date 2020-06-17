@@ -25,7 +25,7 @@ git clone github.com/AzizVirus/DDoS-Attack-Tool.git
 cd DDoS-Attach Tool
 
 
-python ddos attack tool.py
+python ddos attack script.py
 
 
 
