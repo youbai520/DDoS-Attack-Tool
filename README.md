@@ -7,9 +7,24 @@ alert: you are responsible for all your actions by using this tool and Aziz is n
 ##################
 to download the tool:
 open a terminal
+
+
 git clone github.com/AzizVirus/DDoS-Attack-Tool.git
+
+
 cd DDoS-Attach Tool
+
+
 python ddos attack tool.py
+
+
+
 choose the IP target
+
+
 choose the port 4444 as default
+
+
 hit enter
+
+
