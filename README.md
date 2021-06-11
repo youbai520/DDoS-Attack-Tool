@@ -3,7 +3,7 @@ this tool will make a ddos attack on the website or the server that you choose i
 
 # Installation & Use
 
-- open a terminal
+- Open a terminal
 
 
 - git clone github.com/AzizVirus/DDoS-Attack-Tool.git
@@ -16,10 +16,10 @@ this tool will make a ddos attack on the website or the server that you choose i
 
 
 
-- choose the IP target
+- Choose the IP target
 
 
-- choose the port 4444 as default
+- Choose the port 4444 as default
 
 
-- hit enter
+- Hit enter
