@@ -30,33 +30,7 @@ prompt = bcolors.OKBLUE + 'DDos-attack tool@:' + bcolors.ENDC + ' '
 
 os.system("clear")
 os.system("figlet DDos Attack Tool ")
-def banner():
-   print ' '
-   print '+++++ DDoS Attack Script +++++'
-   print ' '
-   print '       _,.      H A C K E R   '
-   print '     ,` -.)                               H E Y  Y O U  !! H A V E  A  N I C E  D A Y '
-   print '    ( _/-\\-._                '
-   print '   /,|`--._,-^|           -`\ '
-   print '   \_| |`-._/||          / .| '
-   print '     |  `-, / |         / ./        Y O U   A R E  H A C K E D  !  '
-   print '     |     || |        / ./   ' 
-   print '      `r-._||/   __   / ./    '
-   print '  __,-<_     )`-/  `./ ./     '                                             
-   print '  \   `---    \   / / ./      '                                                #Banner
-   print '  /  |           |./ ./                      C H E C K  Y O U R  A C C O U N T  !'
-   print ' /   /  */AZIZ\* // ./        '
-   print ' \_/  \         |/ ./         '
-   print '  |    |   _,^- / ./          '
-   print '  |    , ``  (\/ ./           '
-   print '   \,.->._    \X-=/^                           E N J O Y  Y O U R  H A C K I N G  !  ^_^'
-   print '   (  /   `-._//^` \          '
-   print '    `Y-.____(__}    \         '
-   print '     |     {__)      \        ' 
-   print '------------------------------'
-   print ' '
-   print ' ' 
-banner()           
+
 print ' '
 print prompt + "Author   : Aziz_Virus"
 print prompt + "github   : https://github.com/AzizVirus"
